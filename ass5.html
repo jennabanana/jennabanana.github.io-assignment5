@@ -98,18 +98,14 @@ span {
 屋子有其循環，<br>父親死後房子需拆除，兒子們得以傳承房屋部件，<br>未來自立門戶時，加上自己新取的木材，重新造家。
 </p>
 </div>
- <div  id="sec1" class="text-center" style="background-color:rgba(214,219,223);">
-    <p style="font-size:3vh;font-weight: 400;">1970以降，蘭嶼興建環島公路、機場、港口，<br>讓族人生活面貌大幅改變。<br>
-        隨著婦聯會提出《改善蘭嶼山胞住宅計畫》，自1966-1980年陸續拆除傳統地下屋，興建566戶水泥國宅。<br>國宅的建材、空間規劃、屋舍安排，<br>不僅與族人文化、生活習慣完全不符，<br>更嚴重的是，5、6年後房子開始掉落水泥塊、鋼筋外露鏽蝕。
-    </p>
-    </div> 
+ 
 <div id="sec2">
 <div id="vanwa" class="sticky-top">
 <img src="https://res.cloudinary.com/dekkmrdck/image/upload/v1639477604/ass5/%E6%88%AA%E5%9C%96_2021-12-14_%E4%B8%8A%E5%8D%8811.42.37_drwmbg.png" class="opa img-fluid earth-img" data-seq=1 style="background-position:0% 50%;z-index:15;">
 <img src="https://res.cloudinary.com/dekkmrdck/image/upload/v1639477603/ass5/%E8%98%AD%E5%B6%BC%E4%BB%A5%E5%89%8D_mk84n3.jpg" class="opa img-fluid earth-img" data-seq=2 style="background-position:0% 50%;z-index:14;">
 <img src="https://res.cloudinary.com/dekkmrdck/image/upload/v1639477604/ass5/19899141535_e651a1a2cc_b_yj1efw.jpg" class="opa img-fluid earth-img" data-seq=3 style="z-index:13;">
 </div>
-<div id="note" style="z-index:25;">
+<div id="note" style="z-index:20;">
    <div><p class="paragraph"><span>1970以降，蘭嶼興建環島公路、機場、港口，<br>讓族人生活面貌大幅改變；<br>隨著婦聯會提出《改善蘭嶼山胞住宅計畫》，自1966-1980年陸續拆除傳統地下屋，興建566戶水泥國宅。</span></p></div>
    <div><p class="paragraph"><span>國宅的建材、空間規劃、屋舍安排，<br>不僅與族人文化、生活習慣完全不符，<br>更嚴重的是，5、6年後房子開始掉落水泥塊、鋼筋外露鏽蝕。</span></p></div>
 </div>
@@ -166,7 +162,7 @@ span {
 	$(".opa").each(function () {
 		var opRange = $(this).parent().parent().height() / 3;
 		$(this).css({
-			opacity: ($(this).data("seq") * opRange - scrolled+ 3*winh) / opRange
+			opacity: ($(this).data("seq") * opRange - scrolled+ 2*winh) / opRange
 		});
 	});
 
