@@ -166,7 +166,7 @@ span {
 	$(".opa").each(function () {
 		var opRange = $(this).parent().parent().height() / 3;
 		$(this).css({
-			opacity: ($(this).data("seq") * opRange - scrolled+ 2*winh) / opRange
+			opacity: ($(this).data("seq") * opRange - scrolled+ 3*winh) / opRange
 		});
 	});
 
